@@ -1,0 +1,188 @@
+{
+ "address": "1NwGXazwgx2L7851wDJTf9zzrvbxR58DjJ",
+ "address_index": 11527076,
+ "background-color": "#FFF",
+ "clone_root": "template-new",
+ "cloned_from": "1HELLoE3sFD9569CLCbHEAVqvqV7U2Ri9d",
+ "description": "",
+ "files": {
+  "ar2.png": {
+   "sha512": "7783e267231feddfbee66538bb6689b6b950c2424108d5548cba429b31063811",
+   "size": 11530
+  },
+  "background.png": {
+   "sha512": "3d9fc194baf82701644d839010f0a75dc4cde8650d39562f5c377eeb54b7b4a8",
+   "size": 1081
+  },
+  "button.png": {
+   "sha512": "2d142ba03697b1d0c128696e18827b71732096913b4d76f00e7e0747309cb902",
+   "size": 1076
+  },
+  "deltarium.png": {
+   "sha512": "9703954168b8d7e0216666f59d4074183705dea7f68252da05af0c6d264fe7f6",
+   "size": 13567
+  },
+  "gui.png": {
+   "sha512": "3239d9ce3c03de884bff48c6b4c3160bea41e3377e4d3b6d4eb48813c22bdf5f",
+   "size": 21909
+  },
+  "index.html": {
+   "sha512": "b66a85c9d62807ce835caaa2856cc1a9284ac077cb127173ce18dcdc976906be",
+   "size": 4159
+  },
+  "js/ZeroFrame.js": {
+   "sha512": "76a24d167e8a4c45f7d1b315efe31e4b4ccb19efef011c080994c94045ff4c93",
+   "size": 5088
+  },
+  "leaks.html": {
+   "sha512": "ffc47b66370f6d4c7143de7bca4309d75cd7eaba4623cebb5a24b74d55a0e5c6",
+   "size": 4117
+  },
+  "leaks/IBIS leak.txt": {
+   "sha512": "adf9e1988f33880514a0ddc6c013982ead829490aacccfa09d739b48e28e882a",
+   "size": 26650
+  },
+  "leaks/SSBCI leak.txt": {
+   "sha512": "b69e158ef0afac2f64d060fa1fa97e841c16c89b54a19889f56b002fda2dd8b9",
+   "size": 6419963
+  },
+  "leaks/Stredn\u00e1 zdravotn\u00edcka \u0161kola leak.txt": {
+   "sha512": "d345989472aa079217c05962d7a058404e79d2979cc001e6a87765fee1d500c1",
+   "size": 24540045
+  },
+  "leaks/barton community college leak.txt": {
+   "sha512": "d0a1f8ab344df37ed6729fe5bbab0171f9a9ab28151c4f753287906c5ac04c1f",
+   "size": 22255
+  },
+  "leaks/biolact leak.txt": {
+   "sha512": "3a7efb3026e422323390bc546d8263d1dc6d02d5664eb019c283ce178c4f61a9",
+   "size": 80586
+  },
+  "leaks/ddosecrets leak.txt": {
+   "sha512": "3ac20f5a315aeefe094c411902840c336972fd1f84b6b4678f82098a0bedb688",
+   "size": 13947
+  },
+  "leaks/docker.dev leak.txt": {
+   "sha512": "44a4468d856ca23a85ab195e8fc40f66f015382c641880063d5cdd5395fbb499",
+   "size": 1823723
+  },
+  "leaks/eazzypay leak.txt": {
+   "sha512": "930866cc9f894587bd10a2f1f334b852f49444a47bc3617d843ed5725094ff3f",
+   "size": 16736
+  },
+  "leaks/fansipan leak.txt": {
+   "sha512": "e86f5650a93060973bfc285ae2c01fbd998c3e3c1244ea715af232e89d0badc4",
+   "size": 1242434
+  },
+  "leaks/greenville, PA leak.txt": {
+   "sha512": "5d089c6b8c4a6ff21291637877a861c028f14e24f00eb4b16eb14cc6a847de6f",
+   "size": 3758037
+  },
+  "leaks/heritage-institute leak.txt": {
+   "sha512": "67979adff5321a3b788c7f65d274aa16fe3d4f0db445be1ec55dd601ccb99163",
+   "size": 29056
+  },
+  "leaks/htrypillyarada leak.txt": {
+   "sha512": "6fdea50d2dc8a5dabf5835e2d133e9e8dd00ae21403bd25b7f866232d939ed07",
+   "size": 362277
+  },
+  "leaks/huggingface leak.txt": {
+   "sha512": "9605cdb2da4d4d8f28fc6992b0704d33d3f365bcd01cdbbec802488de788be7e",
+   "size": 1323
+  },
+  "leaks/jjstech leak.txt": {
+   "sha512": "11a3a1e08ac1db8db9d749a7f7807b8671802eb15ed034d827bcba43a207cfdf",
+   "size": 2887286
+  },
+  "leaks/joforce leak.txt": {
+   "sha512": "785a480b8e84fde1b804dcb72a6116f15985ae126041f0db2c6dd69fe02cad16",
+   "size": 65512
+  },
+  "leaks/mamablug leak.txt": {
+   "sha512": "044c4ebae46b642ccd11743a6e94f5e023ee2c60d36059f82a78c9035f2591fa",
+   "size": 2516401
+  },
+  "leaks/michelleapplebaum leak.txt": {
+   "sha512": "a5e306fb99a550f1c8cff7ae86081eed37d7486abff344330cde738d12c4d208",
+   "size": 20490199
+  },
+  "leaks/mycornerstonetx leak.txt": {
+   "sha512": "db443ba9e778bcf1c8211061be377d64ea524f70ec8dedb4f21fc8c83568b9b6",
+   "size": 9154446
+  },
+  "leaks/nilachakra leak.txt": {
+   "sha512": "af555e287f3b53158e36322e57f8ecefc4e0a6a2499bcb53d0aea6b64d40e8e5",
+   "size": 40978
+  },
+  "leaks/nomoneykids leak.txt": {
+   "sha512": "4f6877134ece4380ed4c9e4f69866664272a2d16e7cd0f9e24ac8c832a3cef79",
+   "size": 2021
+  },
+  "leaks/rcil leak.txt": {
+   "sha512": "c1ea71931de70314cec3aa6278f53c81cd2faf464b71b1fc6e1b925760f6c1fe",
+   "size": 7488684
+  },
+  "leaks/staug collage leak.txt": {
+   "sha512": "b89b2bceac1dd9cb5c1c12ab33415f833800bf667922eab62aea586b282b717a",
+   "size": 31963688
+  },
+  "leaks/stjohnonline leak.txt": {
+   "sha512": "3542bb2ac69f88a20675d74d1c9f1bbae0dce5e8f639bd04b45a012295dee27e",
+   "size": 3169405
+  },
+  "leaks/testingcolorvision leak.txt": {
+   "sha512": "81b89561765139ce731e98cf0e1df3b3ba3d8bbd60cbfbbd463b32e8a334ea0c",
+   "size": 147213
+  },
+  "leaks/uconline leak.txt": {
+   "sha512": "27337a99c763243334e573eff7b30177cd9940074705e910d1d97d5e6e782887",
+   "size": 1439378586
+  },
+  "leaks/ukro.in.ua leak.txt": {
+   "sha512": "2ed0ea767b09b53a84c6cc2c69912ec4488cb1f088a9df2a2e6ad777675cd7e9",
+   "size": 1816017
+  },
+  "leaks/university of hawai system leak.txt": {
+   "sha512": "b18b0d970cc070400a8de4583de0afcc6bfc5fd4c7e53829e1f67046817ef8ea",
+   "size": 20601
+  },
+  "leaks/veres leak.txt": {
+   "sha512": "48c9fca9ceb89f9d0c5ce8d5b7c3b37479c4503608c7c392950aff42c7894a3a",
+   "size": 254315
+  },
+  "logo.png": {
+   "sha512": "55dd2f935cad29a6621368ef5c1ea91854b33b326ca53b8a649048ffca041dbb",
+   "size": 137883
+  },
+  "mail exploiter.png": {
+   "sha512": "89cb32a33e961c6f0cb8b3022f72977c7c72bff98d72ecdd9e96928990886bf6",
+   "size": 6251
+  },
+  "no.png": {
+   "sha512": "241b71a2ce7cde5f96e5b77b83f3e440affd48985a559ea2fd507565ed3427c9",
+   "size": 32454
+  },
+  "rce.png": {
+   "sha512": "cf4239bd6fabce7209f72cc32bccc7ac80438249739ef329ac759e2d1c8bfe07",
+   "size": 7958
+  },
+  "tools.html": {
+   "sha512": "053cd7ad1ea2d35b15c66746e30e9f5642940e474cc7d068d48a19708a55ff94",
+   "size": 7092
+  },
+  "union.png": {
+   "sha512": "e9ff2d7239cd38dee9491347f2316b33d725b7b4054c8dd897e3619586c673b2",
+   "size": 4371
+  }
+ },
+ "ignore": "",
+ "inner_path": "content.json",
+ "modified": 1769622951,
+ "postmessage_nonce_security": true,
+ "signers_sign": "G0P1Ucw79XpOwySFi9WRJwRBuig48d2ddZMgR9/F6nZTAlqz8r6CQgnUR/hV5oySaGxEUXPYTwXWH9spyoav3MI=",
+ "signs": {"1NwGXazwgx2L7851wDJTf9zzrvbxR58DjJ": "G990J4IZdSOGnoT9UnG8EQgMi1Ps3HltDR+ssD5hNARSV6Y98GIRpYniVOnc7tHDa2emVQ3lkCckYrkcI9cv/mg="},
+ "signs_required": 1,
+ "title": "my new site",
+ "translate": ["js/all.js"],
+ "zeronet_version": "0.8.5"
+}

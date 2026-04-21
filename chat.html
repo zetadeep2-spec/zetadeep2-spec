@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universal Union</title> 
+  <meta name="description" content="Official website of the Universal union and home of all universalists" />
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0a0a0a;
+  color: #ff2a2a;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "stalingrad-1";
+  src: url("stalingrad-1.woff2") format("woff2"),
+       url("stalingrad-1.woff") format("woff"),
+       url("stalingrad-1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "stalingrad-1", Arial, sans-serif;
+  background: #0a0a0a;
+  color: #ff2a2a;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  height: 68px;
+  font-size: 3em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "stalingrad-1", Arial, sans-serif;
+}
+
+header h1 {
+  font-family: "stalingrad-1", Arial, sans-serif;
+}
+
+#chatBox {
+  position: absolute;
+  top: 160px;
+  left: 140px;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background: #0a0a0a;
+}
+
+/* USERS BAR */
+#topBar {
+  padding: 10px;
+  font-size: 12px;
+  background: #0b0b0b;
+  border-bottom: 2px solid #ff2a2a;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+}
+
+/* USER LIST */
+#userList {
+  font-size: 11px;
+  color: #ff4d4d;
+  margin-top: 6px;
+  max-height: 40px;
+  overflow-y: auto;
+}
+
+/* CHAT AREA */
+#chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+/* SCROLL */
+#chat::-webkit-scrollbar {
+  width: 6px;
+}
+#chat::-webkit-scrollbar-thumb {
+  background: #ff2a2a;
+  border-radius: 0;
+}
+
+.msg {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: rgba(255, 0, 0, 0.06);
+  border-left: 3px solid #ff2a2a;
+  border-radius: 0;
+}
+
+.msg:hover {
+  background: rgba(255, 0, 0, 0.12);
+}
+
+/* INPUT BAR */
+#inputBox {
+  display: flex;
+  padding: 10px;
+  background: #0b0b0b;
+  border-top: 2px solid #ff2a2a;
+}
+
+#msg {
+  flex: 1;
+  background: #121212;
+  color: #ff4d4d;
+  border: 2px solid #ff2a2a;
+  border-radius: 0;
+  padding: 10px;
+  outline: none;
+}
+
+button {
+  font-size: 18px;
+  background-image: url("button.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+  border: 2px solid red;
+  height: 50px;
+  width: 150px;
+  border-radius: 0;
+}
+
+button:hover {
+  background: #111;
+  transform: none;
+}
+
+/* FOCUS */
+#msg:focus {
+  box-shadow: none;
+  border-color: #ff2a2a;
+}
+
+/* SIDEBAR */
+#sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 140px;
+  background: #0b0b0b;
+  border-right: 3px solid #ff2a2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+#sidebar button {
+  font-size: 18px;
+  background-image: url("button.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+  border: 2px solid red;
+  height: 50px;
+  width: 140px;
+  border-radius: 0;
+}
+
+#sidebar button:hover {
+  background: #111;
+  box-shadow: none;
+  transform: none;
+}
+
+.space {
+  height: 8px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <h1>⟬UпiѵэrsΔl цni0п⟭</h1>
+
+<div id="sidebar">
+
+ <button onclick="window.location.href='chat.html'">
+   chat
+  </button>
+  
+  <space>‎ ‎ ‎ ‎ ‎ </space>
+  
+  <button onclick="window.location.href='tools.html'">
+   tools
+  </button>
+  <space>‎ ‎ ‎ ‎ ‎ </space>
+  
+    <button onclick="window.location.href='leaks.html'">
+   leaks
+  </button>
+  
+  <space>‎ ‎ ‎ ‎ ‎ </space>
+  
+    <button onclick="window.location.href='targets.html'">
+   targets
+  </button>
+  
+  <space>‎ ‎ ‎ ‎ ‎ </space>
+  
+    <button onclick="window.location.href='knowledge.html'">
+   knowledge
+  </button>
+
+</div>
+
+
+</div>
+
+<div id="chatBox">
+
+  <div id="topBar">
+    USERS ONLINE
+    <div id="userList"></div>
+  </div>
+
+  <div id="chat"></div>
+
+  <div id="inputBox">
+    <span style="color:red;">&gt;</span>
+    <input id="msg" placeholder="" />
+  </div>
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+<script>
+var firebaseConfig = {
+  apiKey: "AIzaSyA8Dz6KXNSv_5exl4swfL1Kjz6z4Xm6PJY",
+  authDomain: "universalist-5b7d9.firebaseapp.com",
+  databaseURL: "https://universalist-5b7d9-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "universalist-5b7d9"
+};
+
+firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+
+let username = localStorage.getItem("user");
+if (!username) {
+  username = prompt("WHATS Y0UR NICK:");
+  localStorage.setItem("user", username);
+}
+
+let userId = null;
+let chatRef = null;
+
+firebase.auth().signInAnonymously().catch(console.error);
+
+// SOLO cuando login está listo
+firebase.auth().onAuthStateChanged(user => {
+  if (!user) return;
+
+  userId = user.uid;
+
+  startPresence();
+  loadUsers();
+  loadChat();
+  setupInput();
+});
+
+function startPresence() {
+  const ref = db.ref("users/" + userId);
+
+  ref.set({ name: username });
+  ref.onDisconnect().remove();
+}
+function loadUsers() {
+  db.ref("users").on("value", snap => {
+    let users = snap.val() || {};
+
+    document.getElementById("userList").innerHTML =
+      Object.values(users)
+        .map(u => "[ " + u.name + " ]")
+        .join("<br>");
+  });
+}
+function loadChat() {
+  if (chatRef) chatRef.off();
+
+  chatRef = db.ref("chat/general");
+
+  chatRef.limitToLast(100).on("child_added", snap => {
+    let d = snap.val();
+    if (!d) return;
+
+    let div = document.createElement("div");
+    div.className = "msg";
+    div.textContent = `[${d.user}] > ${d.text}`;
+
+    document.getElementById("chat").appendChild(div);
+
+    document.getElementById("chat").scrollTop =
+      document.getElementById("chat").scrollHeight;
+  });
+}
+
+function setupInput() {
+  const input = document.getElementById("msg");
+
+  input.addEventListener("keypress", e => {
+    if (e.key === "Enter") send();
+  });
+}
+let last = 0;
+function send() {
+  const input = document.getElementById("msg");
+  const text = input.value.trim();
+
+  if (!text || !userId) return;
+
+  const now = Date.now();
+
+  if (now - last < 1200) return;
+
+  last = now;
+
+  db.ref("chat/general").push({
+    user: username,
+    uid: userId,
+    text: text,
+    time: now
+  });
+
+  input.value = "";
+}
+
+</script>
+
+</body>
+</html>
